@@ -31,12 +31,12 @@ public class UserLoginCheckerRefactored {
 		}
 
 		long timeElapsedSinceLock = new Date().getTime() - lockTimestamp.getTime();
+		
 		if (isFirstScreen && timeElapsedSinceLock > MAXIMUM_LOCK_PERIOD_IN_MS) {
 				return createWriteLock();
 		}
 		
 		return createReadLockWithMessage(userIdWithLock);
-
 	}
 
 	private Lock createReadLockWithMessage(String userIdWithLock) {
