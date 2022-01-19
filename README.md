@@ -4,8 +4,8 @@ This project was developed following the instructions and the exercises from the
 
 ## Clone, build and run
 - Clone this repo to your local https://github.com/milton-jr92/refactoring-and-tdd.git
-- From your IDE (it was used Eclipse for this project), import it as a Maven project
-- Run all the tests from root as a JUnit Test, it should run all the 56 from 56 tests
+- Import it as a Maven project to your IDE, I used Eclipse =)
+- After automatically install all dependencies, run the project as a JUnit Test, it should run all the 56 from 56 tests without error
 
 ### Summary
 
